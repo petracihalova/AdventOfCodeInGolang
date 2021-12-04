@@ -10,7 +10,7 @@ import (
 func main() {
 	//Puzzle input
 	pwd, _ := os.Getwd()
-	dataBytes, _ := os.ReadFile(pwd + "/day15/input.txt")
+	dataBytes, _ := os.ReadFile(pwd + "/2020/day15/input.txt")
 
 	raw := strings.Split(string(dataBytes), ",")
 	data := CreateStartingNumbers(raw)

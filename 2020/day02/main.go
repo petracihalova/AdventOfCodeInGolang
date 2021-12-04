@@ -46,7 +46,7 @@ func PasswordIsValidPuzzle2 (psw string) bool {
 func main() {
 	//Puzzle input
 	pwd, _ := os.Getwd()
-	f, _ := os.Open(pwd + "/day02/input.txt")
+	f, _ := os.Open(pwd + "/2020/day02/input.txt")
 
 	scanner := bufio.NewScanner(f)
 	var puzzleInput []string

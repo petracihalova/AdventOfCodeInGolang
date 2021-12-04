@@ -11,7 +11,7 @@ import (
 func main() {
 	//Puzzle input
 	pwd, _ := os.Getwd()
-	dataBytes, _ := os.ReadFile(pwd + "/day04/input.txt")
+	dataBytes, _ := os.ReadFile(pwd + "/2020/day04/input.txt")
 
 	data := string(dataBytes)
 	passports := CreatePassportList(data)

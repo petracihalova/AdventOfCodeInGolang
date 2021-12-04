@@ -11,7 +11,7 @@ import (
 func main() {
 	//Puzzle input
 	pwd, _ := os.Getwd()
-	f, _ := os.Open(pwd + "/day14/input.txt")
+	f, _ := os.Open(pwd + "/2020/day14/input.txt")
 
 	scanner := bufio.NewScanner(f)
 	var puzzleInput []string

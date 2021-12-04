@@ -9,7 +9,7 @@ import (
 func main() {
 	//Puzzle input
 	pwd, _ := os.Getwd()
-	dataBytes, _ := os.ReadFile(pwd + "/day06/input.txt")
+	dataBytes, _ := os.ReadFile(pwd + "/2020/day06/input.txt")
 
 	data := string(dataBytes)
 	groups := CreateGroupList(data)
